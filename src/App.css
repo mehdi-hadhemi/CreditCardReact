@@ -1,0 +1,64 @@
+.card {
+  padding: 20px;
+  background-image: url('./credit-card.jpg');
+  background-size: 100% 100%;
+  border-radius: 20px;
+  width: 516px;
+  color: white;
+}
+.card-title {
+  text-align:end;
+  font-size: 35px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.card-infos {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.code{
+  display: flex;
+  flex-direction: column ;
+  margin-right: 35px;
+  width: 100%;
+}
+#mast{
+  height: 120px;
+}
+.card-number{
+  color: rgb(166, 171, 113);
+  font-size: 36px;
+  background: rgba(55, 132, 122, 0.74) ;
+  margin-bottom: 0;
+  text-align: center;
+  margin-top: 0;
+}
+.date{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end  
+}
+.code2{
+  font-weight: bold;
+  font-size: 33px;
+  margin: 0;
+  line-height: 1;
+}
+.code3{
+  margin: 0;
+  font-size: 13px;
+  text-align: end
+}
+.validity {
+  display: flex;
+  align-items: flex-end;
+}
+.date2{ 
+  justify-content: space-around;
+
+}
+.client-name{
+  font-size: 13px;
+
+}
